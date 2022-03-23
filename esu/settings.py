@@ -1,3 +1,5 @@
+import os
+
 """
 Django settings for esu project.
 
@@ -25,7 +27,7 @@ SECRET_KEY = 'django-insecure-4!wpf1c()@8t^)z&w(m(%4e&0nj5-l9z0!3ozld7x&8%&=^nxf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1','localhos']
 
 
 # Application definition
@@ -37,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'bara',
 ]
 
 MIDDLEWARE = [
